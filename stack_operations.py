@@ -1,0 +1,12 @@
+stack=[]
+stack.append(10)
+stack.append(20)
+stack.append(30)
+stack.append(40)
+stack.append(50)
+print('The stack is',stack)
+stack.pop()
+print('The stack after delettion',stack)
+print('The top element of stack is',stack[-1])
+print('The size of the stack is',len(stack))
+print('Is empty:',len(stack)==0)
